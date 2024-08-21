@@ -1,5 +1,4 @@
-
-currentyear = int(input("enter current year"))
-birthyear = int(input("enter birthyear"))
-age = currentyear-birthyear
-print(age) 
+length = int(input("enter length"))
+width = int(input("enter width"))
+area = length*width
+print(area)
