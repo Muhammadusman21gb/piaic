@@ -1,5 +1,7 @@
-# Write a program that calculates the area of the cube
-
-length = input(" area of cube")
-cubeArea = 6 * (length ** 2)
-print("cubeArea")
+#  - Create a program that converts a temperature from Fahrenheit to Celsius and vice versa using a variable
+celsius = float(input("enter temperature in celsius"))
+fahrenheit = celsius * (9/5) + 32
+print(fahrenheit)
+fahrenheit = float(input("enter temperature in fahrenheit"))
+celsius =   (fahrenheit - 32) * 5/9
+print(celsius)
