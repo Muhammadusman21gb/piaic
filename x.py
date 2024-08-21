@@ -1,7 +1,6 @@
-#  - Create a program that converts a temperature from Fahrenheit to Celsius and vice versa using a variable
-celsius = float(input("enter temperature in celsius"))
-fahrenheit = celsius * (9/5) + 32
-print(fahrenheit)
-fahrenheit = float(input("enter temperature in fahrenheit"))
-celsius =   (fahrenheit - 32) * 5/9
-print(celsius)
+ #- Write a program that calculates the percentage
+originalValue = float(input("enter original value"))
+newValue = float(input("enter new value"))
+percentage = newValue*100/originalValue
+print(percentage)
+
