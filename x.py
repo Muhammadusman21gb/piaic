@@ -1,5 +1,7 @@
-# Write a program that calculates the BMI using height (in meters) and weight (in kilograms) variable
-height = int(input("enter height in meters"))
-weight = int(input("enter weight in kg"))
-BMI = weight / height**2
-print(BMI)
+#Write a program that calculates the volume of a cylinder using the formula .
+height = int(input("enter height of cylinder"))
+radius = int(input("enter radius of cylinder"))
+π = 3.14
+Volume  =π * (radius**2) * height
+print(Volume)
+
